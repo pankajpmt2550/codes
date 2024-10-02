@@ -8,7 +8,9 @@ int main(){
 	ar[3]=7;
 	ar[4]=5;
 	for(int i=0;i<=4;i++){
-	
 	cout<<ar[i]<<" ";  
 }
 }
+
+
+
