@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+int age ;
+cout <<"enter age ";
+cin>>age;
+if(18<=age ){ 
+cout << you are elgible for voting ";
+}
+else if ( age >18){
+cout <<"you are not elgible for voting ":
+}
+else{
+cout <<"you arre elgible for voting ";
+   return 0;
+  }
