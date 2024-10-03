@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int num;
+cout<<"enter a any number = ";
+cin>>num;
+if(0<num){
+cout <<"it s a possitive number ";
+ }
+ else{
+cout <<" its  a negtive number";
+    }
+}
