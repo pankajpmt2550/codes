@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    
+int math,eng,hindi,bee,dsa;
+float per;
+printf("enter the  math marks,eng,hindi,beee,dsa=\n");
+scanf( "%d%d%d%d%d",&math,&eng,&hindi,&bee,&dsa);
+
+per = (math+eng+hindi+bee+dsa)*100/500;
+printf ( "percent: %f",per);
+return 0;
+}
