@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main (){
+	
+	 int number;
+	 printf (" enter the number=");
+	 scanf("%d",&number);
+	 if ( number%5==0){
+	 printf(" it's divided by 5",number);
+	 	;
+	 }	
+	 else if ( number%11==0){
+	 printf(" its number is divedeb by 11",number);
+	
+	 }
+	 else{
+	 	printf(" its a not divide by 5 and 11",number);
+	 }
+}
