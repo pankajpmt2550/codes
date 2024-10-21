@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <ctype.h>  
+
+int main() {
+    char c;
+
+    printf("Enter a l\n ");
+    scanf("%c", &c);
+       if ( isalpha(c)){
+       	printf(" %c = is a alphanet\n",c);
+       	
+	   }
+	   else if( isupper(c)){
+	   	printf("%c = it s a upper latter\n",c);
+	   	
+	   }
+	   else if( islower(c)){
+	   	printf( " %c= it s a lower",c);
+	   }
+	   else if( isdigit(c)){
+	   	printf("%c =it a digit",c);
+	   	
+	   }
+	   else{ 
+	   printf(" it a no letter digit ",c);
+	   }
+}
