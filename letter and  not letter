@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<ctype.h>
+int main (){
+	char c;
+	scanf("%c",&c);
+	
+	if(isalpha(c))
+	{ 
+	printf(" its  a letter =",c);
+	}
+	
+	else if (isupper(c) ){
+		printf(" it a upper latter =");
+	}
+	
+	else
+	{
+	printf(" it is not letter =",c);
+	}
+
+}
